@@ -173,3 +173,15 @@ void ThreadDebugShifter::disableSumThreadActivityOnCh0(){
 	_sumThreadActOnCh0 = false;
 	_firstAvailableChannel = 0;
 }
+
+				
+
+// ---------------------------------------------------------------------------
+//                           getStates
+// ---------------------------------------------------------------------------
+/*
+ *  
+ */
+uint16_t ThreadDebugShifter::getStates(){    
+	return _pinStates; 
+}

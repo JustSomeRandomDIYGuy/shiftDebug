@@ -35,7 +35,8 @@
 				void				sendThreadStopSignal(uint8_t threadID);
 				void				disableDebugging();	
 				void				enableSumThreadActivityOnCh0();						
-				void				disableSumThreadActivityOnCh0();
+				void				disableSumThreadActivityOnCh0();				
+				uint16_t			getStates(); 
 	};
 
 #endif
